@@ -1,0 +1,168 @@
+
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-size: 4.5rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #176087;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.15rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #176087;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+hr {
+  border: dotted #53A2BE 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  opacity: .6;
+  width: 4%;
+}
+
+a {
+  color: #0A2239;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px 25px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #D0E5F6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  margin: 75px auto;
+}
+
+.bottom-container {
+  background-color: #176087;
+  padding: 50px 0 20px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.tbdr {
+  color: #0073CF;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.dad {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+.top-cloud {
+  opacity: 0.9;
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 450px;
+  opacity: 0.8;
+}
+
+.dadpng {
+  height: 400px;
+  margin: 100px auto 0 auto;
+  opacity: 0.85;
+}
+
+.desk {
+  min-width: 350px;
+  width: 35%;
+}
+
+.intro {
+  margin: auto;
+  width: 35%;
+}
+
+.father {
+  float: left;
+  margin-right: 30px;
+  min-width: 150px;
+  width: 30%;
+}
+
+.house {
+  float: right;
+  margin: 0 0 30px 30px;
+  min-width: 150px;
+  width: 30%;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.9rem;
+  padding: 20px 0;
+}
+
+.float-clear {
+  clear: right;
+  margin-top: 150px;
+}
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#0073CF;
+	border-radius:8px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Poppins', sans-serif;
+	font-size:13px;
+	padding:10px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
